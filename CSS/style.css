@@ -474,13 +474,11 @@ footer {
   font-size: 3vw;
   text-align: center;
   padding-top: 2vw;
-  
-}
-.pillars a {
   list-style: none;
   text-decoration: none;
   color: #000;
 }
+
 .pillars:hover {
   font-size: 4vw;
   text-align: center;
