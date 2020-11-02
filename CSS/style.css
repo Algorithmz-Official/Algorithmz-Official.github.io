@@ -487,6 +487,5 @@ a{text-decoration: none;
   text-decoration: none;
   color: #000;
   
-.dawah{margin: auto;
-  padding-top: 2vw;
-  padding-bottom: 2vw;}
+.dawah{margin: 0 auto;
+  text-align: center;}
