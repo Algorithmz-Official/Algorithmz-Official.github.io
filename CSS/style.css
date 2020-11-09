@@ -160,19 +160,19 @@ ul {
   padding-top: 1.5vw;
 }
 
-.images-large {
+.images {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vw;
   width: 50%;
 }
-.images-small {
+.pillars-images {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vw;
-  width: 5%;
+  width: 15%;
 }
 .scroll-down {
   display: block;
