@@ -160,12 +160,19 @@ ul {
   padding-top: 1.5vw;
 }
 
-.images {
+.images-large {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vw;
   width: 50%;
+}
+.images-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1vw;
+  width: 18%;
 }
 .scroll-down {
   display: block;
