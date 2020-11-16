@@ -41,9 +41,18 @@ p {
   padding-top: 1vw;
   padding-bottom: 0.5vh;
 }
-iframe{
-margin-left: auto;
-margin-right: auto;
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-top: 25px;
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 ol,
 ul {
@@ -283,6 +292,7 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 .back-to-top {
   position: fixed;
