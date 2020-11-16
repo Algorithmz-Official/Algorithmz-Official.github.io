@@ -41,11 +41,11 @@ p {
   padding-top: 1vw;
   padding-bottom: 0.5vh;
 }
-iframe{display: block;
+iframe{
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vw;
-  width: 80%;}
+  width: 50%;}
 ol,
 ul {
   padding-top: 0.3vh;
