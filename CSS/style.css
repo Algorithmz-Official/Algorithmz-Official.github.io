@@ -190,12 +190,7 @@ ul {
   margin-top: 8vh;
   width: 5%;
 }
-.gold-bar {
-  background-color: #daa520;
-  color: #000;
-  text-align: center;
-  height: 0.8vh;
-}
+
 .audio {
   width: 80%;
 
@@ -500,4 +495,56 @@ a{text-decoration: none;
   
 .dawah{margin: 0 auto;
   text-align: center;}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #navbar {
+  margin-top: 0;
+  
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+/* Without the four declarations below (position, width, box-sizing, top), then hero area and navbar are at the top.  With them, there is a white bar on CodePen. On my site that top white bar is not there. */
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top 0;
+}
+
+#navbar-flexbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.gold-bar {
+  background-color: #daa520;
+  color: #000;
+  text-align: center;
+  height: 8px;
+  width: 100%;
+  padding: 0;
+}
+#logo,#nav-hamburger{padding: 12px;
+  color: #daa520;
+  background-color: #000;
+font-size: 7vh;}
 
