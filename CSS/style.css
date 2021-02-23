@@ -337,33 +337,65 @@ h5 {
   padding-bottom: 2vw;
   padding-left: 2vw;
 }
-/***********************************************************************************************************************/
-footer {
-  background: #000000;
-  padding: 90px 0;
-  width: 100%;
-  margin-top: 5vw;
-}
-
-.social-media {
-  display: block;
-  margin-left: 46.5vw;
-
-  padding-top: 1vw;
-  align-items: center;
-}
-
-.footer-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1vw;
-  width: 30%;
-}
-.rights-text {
-  color: white;
-  text-align: center;
-}
+/*******************************************************footer****************************************************************/
+body{
+  margin:0;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+  background:#000;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .rowx{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .rowx a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .rowx a:hover{
+  color:#daa520;
+  }
+  
+  .footer .rowx ul{
+  width:100%;
+  }
+  
+  .footer .rowx ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .rowx a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .rowx ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .rowx a i{
+  margin:0% 3%;
+  }
+  }
 
 /**********************************************************************************************************************************/
 
@@ -496,7 +528,7 @@ a{text-decoration: none;
   cursor: pointer;
   list-style: none;
   text-decoration: none;
-  color: #000;
+  color: #000;}
   
 .dawah{margin: 0 auto;
   text-align: center;}
