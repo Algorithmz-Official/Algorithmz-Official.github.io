@@ -338,10 +338,7 @@ h5 {
   padding-left: 2vw;
 }
 /*******************************************************footer****************************************************************/
-body{
-  margin:0;
-  overflow-x:hidden;
-  }
+
   
   .footer{
   background:#000;
@@ -356,44 +353,53 @@ body{
   padding:0.6% 0%;
   color:gray;
   font-size:0.8em;
+  background:#000;
   }
   
   .footer .rowx a{
   text-decoration:none;
   color:gray;
+  background:#000;
   transition:0.5s;
   }
   
   .footer .rowx a:hover{
   color:#daa520;
+  background:#000;
   }
   
   .footer .rowx ul{
   width:100%;
+  background:#000;
   }
   
   .footer .rowx ul li{
   display:inline-block;
   margin:0px 30px;
+  background:#000;
   }
   
   .footer .rowx a i{
   font-size:2em;
   margin:0% 1%;
+  background:#000;
   }
   
   @media (max-width:720px){
   .footer{
   text-align:center;
   padding:5%;
+  background:#000;
   }
   .footer .rowx ul li{
   display:block;
   margin:10px 0px;
   text-align:center;
+  background:#000;
   }
   .footer .rowx a i{
   margin:0% 3%;
+  background:#000;
   }
   }
 
