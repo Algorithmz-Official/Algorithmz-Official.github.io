@@ -538,10 +538,21 @@ a{text-decoration: none;
   
 .dawah{margin: 0 auto;
   text-align: center;}
+/************************************************99*names*of*allah**************************************************/
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+  
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+}
 
-  
-  
-  
   
   
   
