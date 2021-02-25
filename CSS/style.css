@@ -545,7 +545,7 @@ table{
   width: 80%;
 }
   
-table, th, td {
+table, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -553,7 +553,10 @@ th, td {
   padding: 15px;
 }
 th{color: #daa520;
-background-color: #000;}
+background-color: #000;
+border: 1px solid #000;
+  border-collapse: collapse;
+}
 
   
   
