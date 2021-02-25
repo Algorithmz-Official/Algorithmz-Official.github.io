@@ -552,6 +552,8 @@ table, th, td {
 th, td {
   padding: 15px;
 }
+th{color: #daa520;
+background-color: #000;}
 
   
   
