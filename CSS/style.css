@@ -462,7 +462,7 @@ h5 {
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 25%;
+  width: 33.3%;
   padding: 0 10px;
   cursor: pointer;
 }
